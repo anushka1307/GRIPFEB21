@@ -1,0 +1,14 @@
+<%- include("partials/header"); -%>
+  <body class="tm">
+
+    <section id="history-tab">
+      <h1>Transaction History</h1>
+      <div class="alert alert-warning">
+        <% for(let i=0; i<transaction.length; i++) { %>
+          <p>Amount of Rs. <%=transaction[i].statement%> has been <%= transaction[i].state%> your account.</p>
+      <%  } %>
+      </div>
+    </section>
+  </body>
+
+<%- include("partials/footer"); -%>

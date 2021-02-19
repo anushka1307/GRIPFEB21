@@ -1,0 +1,329 @@
+body{
+margin:0;
+}
+.header
+{
+	width:100%;
+	float:left;
+	text-align:center;
+	background-color:#AAAAAA;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.logo
+{
+	width:30%;
+	float:left;
+}
+.logo h1
+{
+	cursor:pointer;
+	transition:1s;
+	color:white;
+	font-family:cambria;
+}
+.logo h1:hover
+{
+	color:black;
+}
+
+.menu
+{
+	float:left;
+	width:70%;
+}
+.menu ul
+{
+	  margin-right: 10%;
+	  padding: 0;
+	  float:right;
+	  text-align: center;
+}
+.menu ul li
+{
+cursor:pointer;
+list-style-type:none;
+display:inline-block;
+padding:8px;
+}
+
+.menu ul li a
+{
+font-family:cambria;
+text-decoration:none;
+color:white;
+font-size:20px;
+}
+.menu ul li a:hover
+{
+color:black;
+}
+.slideshow {
+padding: 1px;
+}
+
+#facilities {
+  background-color: #FFF;
+  padding: 7% 15%;
+  position: relative;
+}
+.transfer {
+  padding: 3% 2%;
+  text-align: center;
+}
+.view {
+  padding: 3% 2%;
+  text-align: center;
+}
+.accounts {
+  padding: 3% 2%;
+  text-align: center;
+}
+.facility-box {
+  padding: 40px;
+}
+.block {
+  background-color: #a4ebf3;
+}
+.icon {
+  color: white;
+  margin-bottom: 1rem;
+  margin-top: 40px;
+}
+.button {
+  margin-bottom: 2rem;
+}
+footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: relative;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #AAAAAA;
+	padding-top: 10px;
+	padding-bottom: 80px;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+.heading {
+  background-color: #a4ebf3;
+  margin-top: 100px;
+  margin-bottom: 16px;
+}
+
+.btn {
+  background-color: transparent;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+	margin-bottom: 16px;
+	text-decoration: none;
+}
+.btn:hover {
+  box-shadow: 0 0 40px 40px #FFF inset;
+  cursor: pointer;
+	text-decoration: none;
+}
+.btn:focus {
+  background-color: #FFF;
+}
+.btn a {
+	text-decoration:none;
+	color: black;
+}
+.carousel-item {
+	padding: 150px;
+}
+.carousel-inner {
+	background-color: #a4ebf3;
+}
+.carousel-control-prev {
+
+	margin-top: 5%;
+}
+.carousel-control-next {
+	margin-top: 5%;
+}
+.cu {
+	padding: 16px;
+	background-color: #a4ebf3;
+}
+.query {
+	text-align: center;
+	padding-bottom: 30px;
+}
+.ques {
+	padding-bottom: 30px;
+}
+.email {
+	padding: 10px;
+	border-radius: 16px;
+	background-color: transparent;
+	color: black;
+	border-style: solid;
+	text-align: center;
+	font-size: 1.2rem;
+}
+.email:hover  {
+  cursor: pointer;
+	text-decoration: none;
+	background-color: #FFF;
+	border-color: #FFF;
+	color: black;
+}
+
+#transfering-tab {
+	background-color: #a4ebf3;
+	margin-top: 10%;
+	margin-bottom: 203px;
+	padding: 16px;
+}
+.moneyTransfer {
+	text-align: center;
+}
+.tm {
+	background-color: #A4EBF3;
+}
+
+#history-tab {
+	background-color: #A4EBF3;
+	margin-top: 8%;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.history-div {
+	background-color: #FFF;
+	padding: 16px;
+	margin-left: 17%;
+	margin-right: 17%;
+	text-align: center;
+}
+#accounts-tab {
+	background-color: #A4EBF3;
+	margin-top: 8%;
+	margin-bottom: 60px;
+}
+.accounts-div {
+	background-color: #FFF;
+	padding: 16px;
+	margin-left: 17%;
+	margin-right: 17%;
+	text-align: center;
+}
+
+
+#customers tr:hover {background-color: #ddd;}
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #AAAAAA;
+  color: white;
+	padding: 20px;
+}
+#customers {
+	background-color: #FFF;
+	margin-left: 30%;
+}
+
+.dropdown-item {
+	color: black;
+	font-size: 20px;
+	height: 100%;
+}
+.dropdown-menu {
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.nav-link {
+	padding: 0px;
+}
+.dropdown-menu {
+	background-color: #AAAAAA;
+}
+.balance:hover {
+	cursor: default;
+	background-color: #AAAAAA;
+}
+#deposit-tab {
+	background-color: #a4ebf3;
+	margin-top: 15%;
+	margin-bottom: 203px;
+	padding: 16px;
+}
+.alert {
+	margin-bottom: 329px;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding-top: 25px;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+	background: black;
+	color: #FFF;
+}
+.download-button:hover {
+	color: black;
+}
+.download-app {
+	text-align:center;
+	padding-top: 40px;
+}
+.transferBtn {
+	color: black;
+}
+.transferBtn:hover {
+	text-decoration: none;
+	color: black;
+}
+.tra {
+	text-align: center;
+}
+.uni {
+	text-align: center;
+}
+.bank {
+	padding-top: 16px;
+}
+.social {
+  padding-left: 10px;
+	padding-right: 10px;
+}
+select {
+	width: 500px;
+}
+select:focus {
+
+}
+.trah1 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.transferbtn {
+	background-color: #FFF;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+	margin-bottom: 16px;
+	text-decoration: none;
+	border-radius: 2px;
+	margin-top: 20px;
+}
+.amountType {
+	width: 500px;
+}

@@ -1,0 +1,101 @@
+<%- include("partials/header"); -%>
+
+<body class="tm">
+  <section id="accounts-tab">
+      <table id="customers">
+      <%  let i=0; %>
+        <tr>
+          <th>Serial No.</th>
+          <th>Name</th>
+          <th>Account No.</th>
+          <th>Balance</th>
+          <th>Transfer</th>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td><%=accounts[i].name %></td>
+          <td><%=accounts[i].accNumber %></td>
+          <td>Rs. <%=accounts[i].balance%></td>
+          <td class="tra"><a class="transferBtn" href="/transferMoney">Transfer</a></td>
+        </tr>
+        <% i=1; %>
+        <tr>
+          <td>2.</td>
+          <td><%=accounts[i].name %></td>
+          <td><%=accounts[i].accNumber %></td>
+          <td>Rs. <%= accounts[i].balance %></td>
+          <td class="tra"><a class="transferBtn" href="/transferMoney">Transfer</a></td>
+        </tr>
+        <%i=2;%>
+        <tr>
+          <td>3.</td>
+          <td><%=accounts[i].name %></td>
+          <td><%=accounts[i].accNumber %></td>
+          <td>Rs. <%=accounts[i].balance %></td>
+          <td class="tra"><a class="transferBtn" href="/transferMoney">Transfer</a></td>
+        </tr>
+        <% i=3; %>
+        <tr>
+          <td>4.</td>
+          <td><%=accounts[i].name %></td>
+          <td><%=accounts[i].accNumber %></td>
+          <td>Rs. <%=accounts[i].balance %></td>
+          <td class="tra"><a class="transferBtn" href="/transferMoney">Transfer</a></td>
+        </tr>
+        <%i=4;%>
+        <tr>
+          <td>5.</td>
+          <td><%=accounts[i].name %></td>
+          <td><%=accounts[i].accNumber %></td>
+          <td>Rs. <%=accounts[i].balance %></td>
+          <td class="tra"><a class="transferBtn" href="/transferMoney">Transfer</a></td>
+        </tr>
+        <%i=5;%>
+        <tr>
+          <td>6.</td>
+          <td><%=accounts[i].name %></td>
+          <td><%=accounts[i].accNumber %></td>
+          <td>Rs. <%=accounts[i].balance %></td>
+          <td class="tra"><a class="transferBtn" href="/transferMoney">Transfer</a></td>
+        </tr>
+        <%i=6;%>
+        <tr>
+          <td>7.</td>
+          <td><%=accounts[i].name %></td>
+          <td><%=accounts[i].accNumber %></td>
+          <td>Rs. <%=accounts[i].balance %></td>
+          <td class="tra"><a class="transferBtn" href="/transferMoney">Transfer</a></td>
+        </tr>
+        <% i-7; %>
+        <tr>
+          <td>8.</td>
+          <td><%=accounts[i].name %></td>
+          <td><%=accounts[i].accNumber %></td>
+          <td>Rs. <%=accounts[i].balance %></td>
+          <td class="tra"><a class="transferBtn" href="/transferMoney">Transfer</a></td>
+        </tr>
+        <% i=8;%>
+        <tr>
+          <td>9.</td>
+          <td><%=accounts[i].name %></td>
+          <td><%=accounts[i].accNumber %></td>
+          <td>Rs. <%=accounts[i].balance %></td>
+          <td class="tra"><a class="transferBtn" href="/transferMoney">Transfer</a></td>
+        </tr>
+        <% i=9;%>
+        <tr>
+          <td>10.</td>
+          <td><%=accounts[i].name %></td>
+          <td><%=accounts[i].accNumber %></td>
+          <td>Rs. <%=accounts[i].balance %></td>
+          <td class="tra"><a class="transferBtn" href="/transferMoney">Transfer</a></td>
+        </tr>
+      </table>
+
+
+  </section>
+
+</body>
+
+
+<%- include("partials/footer"); -%>

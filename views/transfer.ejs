@@ -1,0 +1,53 @@
+<%- include("partials/header"); -%>
+<body class="tm">
+
+
+<section id="transfering-tab">
+  <h1 class="trah1">Transfer Money</h1>
+  <div class="moneyTransfer">
+    <form class="new" action="/transferMoney" method="post">
+      <div>
+        <label for="accountNumber">Money Transfer From:</label>
+        <br>
+        <select name="fromAccountNumber">
+          <option>Select one</option>
+          <option>6022764829</option>
+          <option>6022764828</option>
+          <option>6022764827</option>
+          <option>6022764826</option>
+          <option>6022764825</option>
+          <option>6022764824</option>
+          <option>6022764823</option>
+          <option>6022764822</option>
+          <option>6022764821</option>
+          <option>6022764820</option>
+          <option>6022764819</option>
+        </select>
+        <br>
+        <label for="accountNumber">Money Transfer To:</label>
+        <br>
+        <select name="toAccountNumber">
+          <option>Select one</option>
+          <option>6022764829</option>
+          <option>6022764828</option>
+          <option>6022764827</option>
+          <option>6022764826</option>
+          <option>6022764825</option>
+          <option>6022764824</option>
+          <option>6022764823</option>
+          <option>6022764822</option>
+          <option>6022764821</option>
+          <option>6022764820</option>
+          <option>6022764819</option>
+        </select>
+        <br>
+        <label for="amountNumber">Amount:</label>
+        <br>
+        <input class="amountType"type="text" name="amount" placeholder="Enter amount">
+      </div>
+    <button class="transferbtn" type="submit" name="button">Transfer</button>
+    </form>
+  </div>
+</section>
+</body>
+<%- include("partials/footer"); -%>
